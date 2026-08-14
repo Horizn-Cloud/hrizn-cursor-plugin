@@ -1,11 +1,11 @@
 ---
 name: hrizn-mcp
-description: Use Hrizn MCP for a granted automotive rooftop — live inventory, dealer context, IdeaClouds, content pages, OEM-compliance checks, Social Hub posts/reviews, and Market Maker. Apply when the user asks about Hrizn, a dealership lot, listings, articles, reviews, or local-market pricing.
+description: Use Hrizn (Content Operating system for Automotive Dealerships) MCP on a granted rooftop — live inventory, dealer context, IdeaClouds, content pages, OEM-compliance checks, Social Hub posts/reviews, and Market Maker. Apply when the user asks about Hrizn, a dealership lot, listings, articles, reviews, or local-market pricing.
 ---
 
-# Hrizn MCP for dealerships
+# Hrizn MCP
 
-This plugin talks to **live Hrizn rooftop data**, not help-doc search. Tool names and arguments come from `tools/list`. Do not invent extra tools.
+Hrizn is the Content Operating system for Automotive Dealerships. This plugin talks to **live rooftop data**, not help-doc search. Tool names and arguments come from `tools/list`. Do not invent extra tools.
 
 ## Before any rooftop work
 

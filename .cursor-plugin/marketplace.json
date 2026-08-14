@@ -5,14 +5,14 @@
     "email": "support@hrizn.io"
   },
   "metadata": {
-    "description": "Give Cursor live access to a Hrizn dealership: lot inventory, content, IdeaClouds, OEM-compliance checks, Social Hub, and Market Maker.",
-    "version": "0.1.1"
+    "description": "Hrizn — Content Operating system for Automotive Dealerships. Live rooftop MCP in Cursor: inventory, IdeaClouds, compliance, Social Hub, and Market Maker.",
+    "version": "0.1.2"
   },
   "plugins": [
     {
       "name": "hrizn",
       "source": "./plugins/hrizn",
-      "description": "OAuth into Hrizn MCP for granted rooftops. Same hosted server as Claude — inventory, content, social, and local market tools."
+      "description": "Content Operating system for Automotive Dealerships. OAuth into granted Hrizn rooftops — same MCP as Claude."
     }
   ]
 }

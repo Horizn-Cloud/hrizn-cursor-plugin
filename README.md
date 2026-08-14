@@ -1,8 +1,8 @@
-# Hrizn for Dealerships
+# Hrizn
 
-Cursor Marketplace plugin for [Hrizn](https://www.hrizn.io).
+**Content Operating system for Automotive Dealerships.**
 
-Hrizn is the operating system for automotive rooftops. This plugin connects Cursor to **your granted dealerships** over OAuth so the agent can work against live lot, content, and social data — the same hosted MCP at `https://mcp.app.hrizn.io/mcp` used by Claude and other OAuth clients.
+Cursor Marketplace plugin for [Hrizn](https://www.hrizn.io). Connect Cursor to **your granted rooftops** over OAuth so the agent can work against live lot, content, and social data — the same hosted MCP at `https://mcp.app.hrizn.io/mcp` used by Claude and other OAuth clients.
 
 ## What Cursor can do after you connect
 

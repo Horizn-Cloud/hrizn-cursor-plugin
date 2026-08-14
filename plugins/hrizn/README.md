@@ -1,4 +1,6 @@
-# Hrizn for Dealerships
+# Hrizn
+
+**Content Operating system for Automotive Dealerships.**
 
 Connects Cursor to the hosted Hrizn MCP at `https://mcp.app.hrizn.io/mcp`.
 
