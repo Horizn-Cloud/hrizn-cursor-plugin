@@ -1,24 +1,37 @@
-# Hrizn Cursor plugin
+# Hrizn for Dealerships
 
-Cursor Marketplace plugin for [Hrizn](https://www.hrizn.io) MCP.
+Cursor Marketplace plugin for [Hrizn](https://www.hrizn.io).
 
-Install in Cursor, sign in with OAuth, then use dealership inventory, content, and social tools. The MCP URL is `https://mcp.app.hrizn.io/mcp` — the same hosted server listed for Claude and other OAuth clients.
+Hrizn is the operating system for automotive rooftops. This plugin connects Cursor to **your granted dealerships** over OAuth so the agent can work against live lot, content, and social data — the same hosted MCP at `https://mcp.app.hrizn.io/mcp` used by Claude and other OAuth clients.
+
+## What Cursor can do after you connect
+
+Available tools follow each rooftop’s Hrizn plan (not a Cursor-only subset):
+
+- **Brief the store** — Dealer DNA, brand voice metadata, staff, CTAs, and target geography
+- **Work the lot** — Search inventory, aging, merchandising health, and a single vehicle
+- **Plan and publish content** — IdeaCloud research, citations, opportunities, articles, model landings, comparisons, and sales-event pages
+- **Check ad copy** — OEM-oriented compliance guidance on pasted or Hrizn content (not legal advice)
+- **Social Hub** — Presence, posts, media upload sessions, and review replies when Social Hub is on the plan
+- **Market Maker** — Local listings, days supply, pricing vs market, appraisal, and stocking gaps on Unlimited
+
+## Setup
+
+1. In Hrizn, open **Dealership Manager → MCP**, choose Teams+ rooftops, and save.
+2. Install this plugin in Cursor.
+3. Connect the `hrizn` MCP server and sign in when Cursor prompts.
+
+You do not paste API keys. If tools fail with a grant error, save rooftops on the MCP page and reconnect.
 
 ## Repo layout
 
-This repo follows the [Cursor plugin template](https://github.com/cursor/plugin-template) multi-plugin layout with a single plugin:
+Follows the [Cursor plugin template](https://github.com/cursor/plugin-template):
 
-- `.cursor-plugin/marketplace.json` — marketplace metadata
-- `plugins/hrizn/` — plugin (`plugin.json`, `mcp.json`, skill, logo)
-
-## Local validation
+- `.cursor-plugin/marketplace.json` — listing metadata
+- `plugins/hrizn/` — plugin, `mcp.json`, skill, logo
 
 ```bash
 node scripts/validate-template.mjs
 ```
 
-## Submission
-
-When the listing is ready, send the repository URL to the Cursor team (Slack or `kniparko@anysphere.com`) per the [plugin template checklist](https://github.com/cursor/plugin-template).
-
-Claude Connectors Directory is a separate listing of the same MCP URL. Do not change `mcp.json` to a Cursor-only host or API-key URL.
+Claude Connectors Directory is a separate listing of the **same** MCP URL. Do not point `mcp.json` at a Cursor-only host or an API-key URL.

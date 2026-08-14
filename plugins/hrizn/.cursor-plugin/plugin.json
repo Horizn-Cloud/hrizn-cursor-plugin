@@ -1,8 +1,8 @@
 {
   "name": "hrizn",
-  "displayName": "Hrizn",
-  "version": "0.1.0",
-  "description": "Hrizn MCP for automotive dealerships: inventory, content, IdeaClouds, and social. Sign in with OAuth after installing.",
+  "displayName": "Hrizn for Dealerships",
+  "version": "0.1.1",
+  "description": "Connect Cursor to your Hrizn rooftops over OAuth. Search live inventory, brief Dealer DNA, plan IdeaClouds, create pages, check automotive ad compliance, work Social Hub posts and reviews, and run Market Maker pricing — using only the tools each granted dealership’s plan allows.",
   "author": {
     "name": "Hrizn",
     "email": "support@hrizn.io"
@@ -14,7 +14,11 @@
     "automotive",
     "dealership",
     "inventory",
+    "ideacloud",
     "content",
+    "compliance",
+    "social-hub",
+    "market-maker",
     "oauth"
   ],
   "logo": "assets/logo.svg"

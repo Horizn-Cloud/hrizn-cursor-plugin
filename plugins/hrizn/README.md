@@ -1,18 +1,17 @@
-# Hrizn Cursor plugin
+# Hrizn for Dealerships
 
 Connects Cursor to the hosted Hrizn MCP at `https://mcp.app.hrizn.io/mcp`.
 
-This is the same Streamable HTTP + OAuth MCP used by Claude and other OAuth clients. The plugin does not ship a second server, API keys, or a Cursor-only Auth0 audience.
+Same Streamable HTTP + OAuth server as Claude. This plugin does not ship a second MCP, API keys, or a Cursor-only Auth0 audience.
+
+## After OAuth
+
+The agent can use live rooftop tools your plan allows: inventory, dealer context, IdeaClouds and page creation, OEM-compliance checks, Social Hub, and Market Maker. Tool availability is per granted dealership — see `list_connected_sites`.
 
 ## Setup
 
-1. Install the plugin from the Cursor Marketplace (or this repo).
-2. In Hrizn Dealership Manager, open **MCP**, choose dealerships, and save.
-3. In Cursor, connect the `hrizn` MCP server and sign in when prompted.
-
-## Config
-
-`mcp.json` points at production:
+1. In Hrizn Dealership Manager → **MCP**, choose dealerships and save.
+2. Install the plugin and sign in when Cursor prompts.
 
 ```json
 {

@@ -5,14 +5,14 @@
     "email": "support@hrizn.io"
   },
   "metadata": {
-    "description": "Hrizn MCP for Cursor — inventory, content, and social tools for automotive dealerships.",
-    "version": "0.1.0"
+    "description": "Give Cursor live access to a Hrizn dealership: lot inventory, content, IdeaClouds, OEM-compliance checks, Social Hub, and Market Maker.",
+    "version": "0.1.1"
   },
   "plugins": [
     {
       "name": "hrizn",
       "source": "./plugins/hrizn",
-      "description": "Connect Cursor to Hrizn MCP over OAuth. Same hosted MCP as Claude and other OAuth clients."
+      "description": "OAuth into Hrizn MCP for granted rooftops. Same hosted server as Claude — inventory, content, social, and local market tools."
     }
   ]
 }
