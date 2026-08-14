@@ -12,7 +12,7 @@
     {
       "name": "hrizn",
       "source": "./plugins/hrizn",
-      "description": "Content Operating system for Automotive Dealerships. OAuth into granted Hrizn rooftops — same MCP as Claude."
+      "description": "Content Operating system for Automotive Dealerships. OAuth into granted Hrizn rooftops via hosted MCP."
     }
   ]
 }

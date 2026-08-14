@@ -4,7 +4,7 @@
 
 Connects Cursor to the hosted Hrizn MCP at `https://mcp.app.hrizn.io/mcp`.
 
-Same Streamable HTTP + OAuth server as Claude. This plugin does not ship a second MCP, API keys, or a Cursor-only Auth0 audience.
+Streamable HTTP + OAuth. This plugin does not ship a second MCP, API keys, or a Cursor-only Auth0 audience.
 
 ## After OAuth
 

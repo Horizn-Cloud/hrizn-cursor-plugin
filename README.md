@@ -2,7 +2,7 @@
 
 **Content Operating system for Automotive Dealerships.**
 
-Cursor Marketplace plugin for [Hrizn](https://www.hrizn.io). Connect Cursor to **your granted rooftops** over OAuth so the agent can work against live lot, content, and social data — the same hosted MCP at `https://mcp.app.hrizn.io/mcp` used by Claude and other OAuth clients.
+Cursor Marketplace plugin for [Hrizn](https://www.hrizn.io). Connect Cursor to **your granted rooftops** over OAuth so the agent can work against live lot, content, and social data at `https://mcp.app.hrizn.io/mcp`.
 
 ## What Cursor can do after you connect
 
@@ -34,4 +34,4 @@ Follows the [Cursor plugin template](https://github.com/cursor/plugin-template):
 node scripts/validate-template.mjs
 ```
 
-Claude Connectors Directory is a separate listing of the **same** MCP URL. Do not point `mcp.json` at a Cursor-only host or an API-key URL.
+Do not point `mcp.json` at a Cursor-only host or an API-key URL.
