@@ -1,0 +1,21 @@
+{
+  "name": "hrizn",
+  "displayName": "Hrizn",
+  "version": "0.1.0",
+  "description": "Hrizn MCP for automotive dealerships: inventory, content, IdeaClouds, and social. Sign in with OAuth after installing.",
+  "author": {
+    "name": "Hrizn",
+    "email": "support@hrizn.io"
+  },
+  "license": "MIT",
+  "keywords": [
+    "hrizn",
+    "mcp",
+    "automotive",
+    "dealership",
+    "inventory",
+    "content",
+    "oauth"
+  ],
+  "logo": "assets/logo.svg"
+}
